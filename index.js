@@ -12,7 +12,7 @@ let printTask = (task) => {
     alert(outputString)
 }
 let searchTodoList = (searchKey) => {
-    console.log(`Matching items with keyword "${searchKey}"`)
+    console.log(`Matching items with keyword "${searchKey}"`);
     alert(`Matching items with keyword "${searchKey}"`)
     for (task of tasks) {
         if (task.name.toLowerCase().includes(searchKey.toLowerCase())) {
